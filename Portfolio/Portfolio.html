@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+
+<meta charset="UTF-8"><!--Contre les problèmes avec caractère spéciaux et les accents-->
+
+<html lang="fr"><!--Langue de HTML Francais-->
+
+<head><!--La partie la plus haut de l'onglet -->
+
+    <title>Portfolio DUVERNAY Morgiane </title><!--Titre du site sur tout les page-->
+    <link rel="stylesheet" href="Accueil.css" ><!--Faire une lien entre HTML et CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<nav class="navbar navbar-expand-lg bg-body-tertiary"><!--Nav est une balise pour la partie navigation de HTML-->         
+
+  <div class="container-fluid"><!--Container pour Bootstrap, "fluid" est pour un container pleine largeur, couvrant toute la largeur de la fenêtre.-->
+      
+      <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon bg-primary"></span><!--Création d'un boutton "Menu" responsible pour les téléphones-->
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header"><!--Création d'un menu quand on selectionne le boutton "Menu"-->
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5><!--Titre de la fenêtre du boutton "Menu"-->
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button><!--Création d'un bouton "Close" dans la fenêtre "Menu" -->
+      </div>
+      <div class="offcanvas-body"><!--Corp de la fenêtre Menu-->
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3"><!--Bouton du menu alingner à la vertical-->
+
+          <li class="nav-item"><!--Element dans la  fenêtre Menu-->
+            <button class="btn btn-primary btn-lg" button onclick="location.href='#Présentation'">Présentation</button></a><!--Création de 7 boutons : Présentation, pole rzo, pole dev, projet, mention légal, contact et politique de confidentialité. Chaque bouton ont un lien sur une page html-->
+            <button class="btn btn-primary btn-lg" button onclick="location.href='#Compétence'">Compétences Techniques</button></a>
+            <button class="btn btn-primary btn-lg" button onclick="location.href='#Stage'">&emsp;&emsp;Stages&emsp;&emsp;</button></a> 
+            <button class="btn btn-primary btn-lg" button onclick="location.href='#Projet'">&emsp;&emsp;Projets&emsp;&emsp;</button></a>
+            <button class="btn btn-primary btn-lg" button onclick="location.href='#Veille'">Veille Technologique</button></a>
+            <button class="btn btn-primary btn-lg" button onclick="location.href='#Synthèse'">Tableau Synthèse</button></a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+
+
+
+<header><!--Le header est la "tête" du HTML, le début de HTML-->
+   
+        <div class="Quinoussomme"><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
+            
+     
+          
+          <h1>Morgiane DUVERNAY-HAFIDI</h1><!--Faire un titre h1 (le plus grande titre)--><br>
+        
+                <p>
+                    
+                  J'ai 19 ans et je suis étudiante en BTS SIO option<br>
+                  Solution Infrastrure Système et Réseau au Lycée Les CHASSAGNES à Oullins.<br>
+    
+                 </p><br><!--Crée un paragraphe-->
+
+      
+                <a href="CV DUVERNAY Morgiane.pdf" target="_blank" ><button class="btn btn-primary btn-lg" type="button" ><span>Télécharger mon CV</span>&emsp;<img src="CV.png" height="50" width="50"></button></a><!--Création de 1 boutons : Plus d'info-->
+
+                 <div class="Moi">
+                
+                      <div class="Photo">
+
+                      <div class="image">
+
+                       <img src="Personne.jpg" class="img-fluid">
+
+
+                   </div>
+
+
+        </div>
+
+    </div>
+
+    
+    </div>
+    
+</header>
+
+<body style=" background-color: #92b4e7;"><!--Corp du code HTML avec une couleur défini pour son background-->
+
+  <article>
+
+    <div class="container"><!--Container pour Bootstrap--></a>
+      
+    <div class="card"><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
+
+        <div class="card text-white "><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
+
+        <div class="card-body mb-0"><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
+
+          <h5 id="Présentation">Mon Profil &emsp;<img src="person.png" height="40" width="40"></h5><br><!--Titre pour la card-->
+
+          <p class="card-text"><p>Mes études en informatique ont débuté au Lycée Aragon Picasso à Givors. J'ai passé 3 ans là-bas pour décrocher un Baccalauréat Professionnel Système Numérique avec l'option Réseau Informatique Système Communicant. Pour mes études, j'ai dû réaliser cinq stages dans plusieurs entreprises informatiques différentes afin de valider mes diplômes.
+            <br>
+            <br> 
+            Après avoir terminé mon BTS SIO, je prévois de poursuivre mes études en choisissant une licence avec une alternance pour devenir <br> <a href="https://www.ipi-ecoles.com/administrateur-systemes-reseaux-securite/#_pltcs=eyJwcm0iOnsidXRtX21lZGl1bSI6ImNwYyIsInV0bV9zb3VyY2UiOiJnb29nbGUiLCJ1dG1fdGVybSI6ImlwaSIsInV0bV9jYW1wYWlnbiI6IlNFX01BUlFVRV9JUElfSU5GT1JNQVRJUVVFIiwiZ2NsaWQiOiJFQUlhSVFvYkNoTUk2b2VEcXNmMWlnTVZSNFJvQ1IxUXhCN1FFQUFZQVNBQUVnS1k2ZkRfQndFIn0sInJlZiI6Ind3dy5nb29nbGUuY29tIn0%3D"> Administratrice système réseau sécurité.</a></p>
+        
+        
+        
+        
+        
+          </div>
+      </article>
+      
+
+
+
+      <section><!--Balise section-->
+        <div class="container"><!--Container pour Bootstrap-->
+            <div class="row"><!--Ligne pour la grille Bootstrap-->
+                <div class="col-md-4 mb-4"><!--Colonne pour chaque carte, 4 colonnes sur un écran moyen-->
+                    <div class="card text-white" style="width: 100%;"><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS et les textes de cette div doivent êtres en blanc-->
+                        <div class="card-body">
+                            <h5 id="Compétence">Language WEB et Base de donnée </h5><!--Titre de la card-->
+                            <div class="ImageB2">
+                                <img src="lan.png" class="img-fluid" ><!--Utilisation de img et classe img-fluid-->
+                            </div>
+                            
+                            <p class="card-text">
+
+                                <p>- HTML</p>
+                                <p>- CSS</p>
+                                <p>- Java Script</p>
+                                <p>- Php</p>
+                                <p>- MySQL</p>
+                                <p>- Bootstrap</p>
+                                <p>- Python</p>
+
+                                
+
+                            </p><!--Paragraphe dans la card-->
+                        </div>
+
+                    </div>
+                </div>
+    
+                <div class="col-md-4 mb-4"><!--Colonne pour chaque carte-->
+                    <div class="card text-white" style="width: 100%;">
+                        <div class="card-body">
+                            <h5>Administration des systèmes et des réseaux</h5>
+                            <div class="ImageB2">
+                                <img src="Bloc2.png" class="img-fluid" ><!--Utilisation de img et classe img-fluid-->
+                            </div>
+                            <p class="card-text">
+
+
+                              <p>- Configuration de Routeur et Switch </p>
+                              <p>- Paramètrage de Windows Serveur</p>
+                              <p>- Système d'exploitation Windows,Linux</p>
+                              <p>- Mis en place de Sauvegarde</p>
+                              <p>- Installation et configurations de service (AD,RADIUS,Supervision,etc...)</p><br>
+                              
+                              
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 mb-4"><!--Colonne pour chaque carte-->
+                    <div class="card text-white" style="width: 100%;">
+                        <div class="card-body">
+                            <h5>Cybersécurité</h5>
+                            <div class="ImageB2">
+                                <img src="Bloc3.png" class="img-fluid" ><!--Utilisation de img et classe img-fluid-->
+                            </div>
+                            <p class="card-text">
+
+                              <p>- Conformité au RGPD.Comprendre comment protéger les données à caractère personnelle.</p>
+                              <p>- Connaissance de plusieurs cyberattaques (Brut de force, Dictionnaire...)</p>
+                              <p>- Mis en place de solution en cybersécurité (Protocole, Matériel, logiciel...)</p>
+                              <p>- Analyse des vulnérabilités et des risques </p>
+                              
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4"><!--Colonne pour chaque carte-->
+                  <div class="card text-white" style="width: 100%;">
+                      <div class="card-body">
+                          <h5>Divers Outil</h5>
+                          <div class="ImageB2">
+                              <img src="Bloc1.png" class="img-fluid" ><!--Utilisation de img et classe img-fluid-->
+                          </div>
+                          <p class="card-text">
+
+                            <p>- Office</p>
+                            <p>- Wireshark </p>
+                            <p>- Putty </p>
+                            <p>- Scanner IP </p>
+                            <p>- Visual Studio </p>
+                            <p>- Team Viewer </p>
+                            
+
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 mb-4"><!--Colonne pour chaque carte-->
+                <div class="card text-white" style="width: 100%;">
+                    <div class="card-body">
+                        <h5>Gestion du parc Informatique </h5>
+                        <div class="ImageB2">
+                            <img src="Bloc2.png" class="img-fluid" ><!--Utilisation de img et classe img-fluid-->
+                        </div>
+                        <p class="card-text">
+
+                          <p>- Gestion du partimoine informatique avec ITIL</p>
+                          <p>- Outil de gestion d'incidents(GLPI)</p>
+                          <p>- Outil de supervision matériel (Centreon)</p>
+
+                          
+                          
+                          <br>
+                          <br>
+                          
+
+                        </p>
+                    </div>
+
+              </div>
+              
+          </div>
+
+          <div class="col-md-4 mb-4"><!--Colonne pour chaque carte-->
+            <div class="card text-white" style="width: 100%;">
+                <div class="card-body">
+                    <h5>Formation Supplémentaire</h5>
+                    <div class="ImageB2">
+                        <img src="Formation.png" class="img-fluid" ><!--Utilisation de img et classe img-fluid-->
+                    </div>
+                    <p class="card-text">
+
+                      <p>- Open Classroom </p>
+                      <p>- Root Me </p>
+                      <p>- Cisco Parcket Tracert </p>
+                      <p>- W3School</p>
+                      <p>- PIX </p><br>
+                     
+                      
+
+                    </p>
+                </div>
+      </div>
+  </div>
+            
+</div>
+            
+    </div>
+    </section>
+    <article>
+
+      <div class="container"><!--Container pour Bootstrap--></a>
+        
+      <div class="card"><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
+  
+          <div class="card text-white "><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
+  
+          <div class="card-body mb-0"><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
+  
+            <p class="card-text"><p> Pour renforcer mes compétences en cybersécurité, j'ai également participé à un MOOC sur le RGPD.</p>
+            <a href="Certification.pdf" target="_blank"><button class="btn btn-primary btn-lg" type="button"><span>Télécharger les certificats </span>&emsp;<img src="Certificat.png" height="50" width="50"></button></a><!--Création de 1 boutons : Plus d'info-->
+
+              <br>
+          
+            </div>
+        </article>
+
+    <section><!--Balise section-->
+
+      <div class="container"><!--Container pour Bootstrap-->
+
+        
+        <div class="card-group"><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
+          <div class="card card text-white" style="width: 20rem;"><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS et les textes de cette div doivent êtres en blanc-->
+            <img src="PROXO.png" class="card-img-top" alt="Réseau" width="400" height="300" id="Stage"><!--Image pour la card qui se positionnera dans la partie supérieur dans la carte, avec des dimentions de 400x300 -->
+            <div class="card-body mb-0"><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
+              <h5>Première Année </h5><!--Titre de la card-->
+              <p class="card-text">
+                Mon premier stage a durée 5 semaines (6 mai au 5 juin),j'étais au <a href="https://aragon-picasso.ent.auvergnerhonealpes.fr/">Lycée Aragon Picasso</a> à Givors.<br><br>
+                 La mission qu'on m'a confié était de déployer un service hyperviseur et de mettre en place et vérifier les niveaux d’habilitation associés à un service.
+              </p><!--Paragraphe dans la card-->
+                <a href="Rapport de Stage 1er Année BTS SIO DUVERNAY Morgiane.pdf" target="_blank"><button class="btn btn-primary btn-lg" type="button"><span>Rapport Stage</span>&emsp;<img src="rapport.png" height="50" width="50"></button></a><!--Création de 1 boutons : Plus d'info-->
+                <a href="Soutenance de Stage 2024.odp" target="_blank"><button class="btn btn-primary btn-lg" type="button"><span>Soutenance de stage</span>&emsp;<img src="PP.png" height="50" width="50"></button></a><!--Création de 1 boutons : Plus d'info-->  
+            
+          </div>
+
+          </div>
+          <div class="card text-white" style="width: 20rem;"><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
+            <img src="Synology.PNG" class="card-img-top" alt="Développement" width="400" height="300"><!--Image pour la card qui se positionnera dans la partie supérieur dans la carte, avec des dimentions de 400x300 -->
+            <div class="card-body"><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
+              <h5>Deuxième Années</h5><!--Titre de la card-->
+              <p class="card-text">Mon second stage a durée 7 semaines (6 janvier au 21 février), j'étais chez <a href="https://www.ambis.fr/">AMBIS</a> à Brignais.<br><br>
+                La mission qu'on m'a confié était de collecter, suivre et orienter des demandes, déployer un service NAS Synology,metttre en place et vérifier les niveaux d'habilitation associées à un service et gestion de sauvegarde de données. </p><!--Paragraphe dans la card-->
+              <a href="Rapport de Stage 2eme Année BTS SIO DUVERNAY Morgiane.pdf" target="_blank"><button class="btn btn-primary btn-lg" type="button"><span>Rapport Stage</span>&emsp;<img src="rapport.png" height="50" width="50"></button></a><!--Création de 1 boutons : Plus d'info-->   
+              <a href="Soutenance de Stage 2025.odp" target="_blank"><button class="btn btn-primary btn-lg" type="button"><span>Soutenance de stage</span>&emsp;<img src="PP.png" height="50" width="50"></button></a><!--Création de 1 boutons : Plus d'info-->  
+            </div>
+          </div>
+           
+
+    </section>
+
+    <article><!--Balise article-->
+     
+        <div class="container"><!--Container pour Bootstrap-->
+  
+        
+          <div class="card"><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
+
+              <div class="card text-white "><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
+
+              <div class="card-body mb-0"><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
+
+                <h5 id="Projet">Mes Projets réalisés&emsp;<img src="projet.png" height="40" width="40"></h5><!--Titre pour la card-->
+
+                <p class="card-text"><p>Pendant mes deux années de BTS, j'ai eu l'opportunité de réaliser plusieurs activités professionnelles en groupe qui m'ont permis d'appliquer les compétences que j'ai acquises en classe.</p><!--Paragraphe dans la card-->
+
+                <br><h5>Projet 1 : Info Dev </h5><!--Titre pour la card--><br>
+
+                <div class ="AP1">
+
+                 <p>Dans cette AP, notre tâche était de créer un site dynamique pour l'entreprise fictive InfoDev. Nous avions pour tâche de faire la présentation de l'entreprise, de ses divers services et de leurs projets. On devait créer un site qui répercute les exigences du RGPD en rédigeant une mention légale et une politique de confidentialité. Nous avons mis en place un formulaire dans la page 'Contact' en utilisant un script Java.
+
+                </div>
+
+                 <img src="Infordev projet.PNG" class="img-fluid" height="350" width="800" ><br>
+
+                 <div class ="AP1">
+                 <br><p>Pour organiser les tâches à réaliser pour le projet InfoDev, on a mis en place un Trello. Trello est un outil de gestion de projet en ligne.On a créé un tableau "InfoDev" et on s'est réparti toutes les tâches. Pour chaque tâche, il y a un temps de réalisation avec la date et l'heure et qui fait quelle tâche ?</p>
+                 </div>
+
+                 <br><img src="Trello.JPG" class="img-fluid" height="350" width="800" ><br>
+                
+                 <br><a href="Rapport  InfoDev.pdf" target="_blank"><button class="btn btn-primary btn-lg" type="button"><span>Documentation</span>&emsp;<img src="document.png" height="50" width="50"></button></a><!--Création de 1 boutons : Plus d'info--><br>
+                 <br>
+                 <br>
+                 
+                <br><h5>Projet 2 : Firewall Stormshield  </h5><!--Titre pour la card--><br>
+
+                <div class ="AP1">
+
+                <p>Dans cette AP, J'ai collecté les besoins et des demandes de la société CHOCOLATE'IN  en suivant scrupuleusement un cahier de charge. Le but était de bloquer des sites web, interdire des paquets pour certaines machines dans leurs réseaux afin d'assurer la sécurité de l'infrastructure. La haute disponibilité permet d'assure la qualité de service si le firewall est en panne.</p><!--Paragraphe dans la card-->
+
+                
+
+
+              </div>
+                <br><img src="Storm.JPG" class="img-fluid" height="450" width="1000" ><br>
+                <br><a href="Dev.html" target="_blank"><button class="btn btn-primary btn-lg" type="button"><span>Documentation</span>&emsp;<img src="document.png" height="50" width="50"></button></a><!--Création de 1 boutons : Plus d'info-->
+
+              </div>
+            </div>
+        
+    </article>
+
+    <section><!--Balise section-->
+
+      <div class="container"><!--Container pour Bootstrap-->
+
+        
+        <div class="card-group"><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
+          <div class="card card text-white" style="width: 20rem;"><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS et les textes de cette div doivent êtres en blanc-->
+            <div class="card-body mb-15"><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
+              <h5 id="Veille">Veille Technologique</h5><!--Titre de la card-->
+              <p class="card-text ">
+
+               <br>
+               Au cours de l'année 2024/2025, j'ai été chargé de veiller à une nouvelle technologie en informatique. Il était nécessaire de sélectionner une technologie innovante en constante évolution. <br>
+
+               <br>J'ai choisi de faire ma veille sur Zero Trust Network Protocole, c'est une technologie de cybersécurité innovante et très intéressante, qu'on peut installer dans n'importe quel secteur d'activité.<br>
+
+              </p><!--Paragraphe dans la card-->
+              <a href="Veille technologique DUVERNAY Morgiane.odp" target="_blank"><button class="btn btn-primary btn-lg" type="button"><span>Télécharger la veille</span>&emsp;<img src="PP.png" height="50" width="50"></button></a><!--Création de 1 boutons : Plus d'info-->  
+            </div>
+          </div>
+          <div class="card text-white" style="width: 20rem;"><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
+            <div class="card-body mb-0"><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
+              <h5 id="Synthèse">Tableau de synthèse </h5><!--Titre de la card-->
+              <p class="card-text"><br>Le tableau de synthèse résume toutes les réalisations présentées dans le portfolio. Dans les compétences abordées, il y a les compétences acquises durant les deux stages, ainsi que les compétences acquises dans les deux projets présentés. </p><!--Paragraphe dans la card-->
+              <a href="Tableau Synthèse DUVERNAY Morgiane.xlsx" target="_blank"><button class="btn btn-primary btn-lg" type="button"><span>Télécharger le Tableau</span>&emsp;<img src="Tableau.png" height="35" width="35"></button></a><!--Création de 1 boutons : Plus d'info-->
+            </div>
+          </div>
+           
+
+    </section>
+
+  
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script><!--Pour le fonctionnement du Java de Bootstrap, Important pour le fonctionnement du boutton "Menu"-->
+
+
+</body>
+
+
+
+<footer><!--Le footer est le "pied " de HTML, la fin de HTML-->
+
+
+      <h5><strong>Contacter Moi !</strong></h5><!--Titre pour la card-->
+
+<div class="footer-col">
+
+      <div class="Logo">
+
+          <div class="Link">
+              <a href ="https://fr.linkedin.com/in/morgiane-duvernay-hafidi-879b48227"><img src="Linkdlin.jpg" width="50" height="50"></button></a><!--Création de 1 boutons : Plus d'info-->
+  
+               <p>&emsp;Morgiane DUVERNAY </p>
+
+          </div>
+        <div class="Phone">
+
+             <img src="Phone.png" width="50" height="50"></a><!--Création de 1 boutons : Plus d'info-->
+
+               <p>&emsp;07 82 16 55 50</p>
+
+        </div> 
+
+        <div class="Email">
+             <a href ="mailto: morgianeduvernay@gmail.com"><img src="Email.png" width="50" height="50"></button></a><!--Création de 1 boutons : Plus d'info-->
+          
+              <p>&emsp;morgianeduvernay@gmail.com</p>
+
+          </div>
+ 
+  
+    </div>
+  </div>
+
+  </footer>
+  
+
+</html>
+

@@ -1,0 +1,186 @@
+
+    /*Corp du site HTML*/
+    
+    
+    p{ /*Modifier les paragraphes */
+    
+        font-family: monospace;/*Police d'écriture Monospace*/
+    
+    }
+
+
+
+/*Header du site HTML*/
+    
+    
+    
+header {/*Modifier la tête de HTML*/
+    
+        
+    border: 30px solid #3E3B4E ;/*Création de bordure de 20 px,en ligne de couleur 3E3B4B*/
+    background-color:#3E3B4E;/*Couleur du font*/
+    align-items: right;/*Aligner l'item séléction au centre*/
+    border: 30px;/*Couleur du font*/
+    color:#ebebeb;/*Couleur du text*/
+    
+} 
+.nav-item {/*Responsive nav pour bouton*/
+
+    padding: 5px;/*Espacement entre les bouttons*/
+    font-family: monospace;/*Police d'écriture*/
+    font-size: 10px;/*Taille du texte*/
+    
+}
+.container-fluid{/*Container du Nav*/
+
+    background-color: #3E3B4E;/*couleur du fond*/
+    padding: 10px;
+    margin: -10px;
+
+}
+
+
+/*Parti Centrale avec les informations sur l'entreprise*/
+
+
+
+div.Quinoussomme{/*Div qui nous sommes*/
+
+    padding: 10%;/*Espacement à la vertical de 10%*/
+    max-width: 800px;
+    display: inline-block;
+
+
+}
+div.Moi{
+
+    background-color: #4f95ff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right:100px;
+    width: 410px;
+    height:410px;
+    bottom: 110px;
+    
+
+}
+
+div.Photo{
+
+    background-color: #3E3B4E;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right:15px;
+    width: 380px;
+    height:380px;
+    bottom: 15px;
+  
+}
+.image img{
+
+    max-width: 380px;
+    border-radius: 50%;
+
+}
+
+article{
+
+    padding: 20px;
+    margin: 10px;
+
+}
+
+section{
+
+
+    padding: 20px;
+    margin: 10px;
+
+}
+
+h1{/*Modifier titre h1*/
+
+    font-family: monospace;/*Police d'écriture*/
+    color:#ebebeb;/*Couleur de texte*/
+    text-align: left;/*Texte aligner au centre*/
+    top: 15px;/*Positionnement en haut de 15px*/
+    font-size: 28px;/*Taille du site 40px*/
+}
+
+
+p.card-text{/*Texte dans les cartes de dev et rzo*/
+
+    color: #ebebeb;/*Couleur Texte*/
+
+}
+
+.containercard{
+
+    display: flex;
+    position: relative;
+    left: 100px;
+
+}
+
+.card-desk{
+
+    margin: 20px;
+
+
+}
+
+.card-body {/*Corps de card pour rzo et dév*/
+
+    background-color: #3E3B4E;/*Couleur du font*/
+    text-align: center;/*Le texte est centrer*/
+    align-items: center;/*Aligner l'item séléction au centre*/
+    color: #ebebeb;/*Couleur Texte*/
+    font-size: 14px;/*Taille de texte*/
+    overflow:hidden;/*Le texte ne quitte pas le boutton mais disparaît petit à petit*/
+
+
+}
+
+
+/*Footer de HTML*/
+
+footer {/*Modifier le footer*/
+    
+    position: relative;/*Permet de décalé un élement dans tous les sens: left, right, top, bottom*/
+    border: 10px solid #3E3B4E  ;/*Création de bordure de 10 px,en ligne de couleur 3E3B4B*/
+    background-color:#3E3B4E ;/*Couleur de font*/
+    margin-bottom: 1px ;/*Espacement à l'horizontal en bas*/
+    top: 100px;/*Positionnement en haut de 100px*/
+    color: #FFFFFF;/*Couleur Texte*/
+    text-align: center;/*Le texte est centrer*/
+   
+    
+}
+
+.Logo {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.Link {
+
+    padding: 3em;
+    display: flex;
+}
+.Phone {
+    padding: 3em;
+    display: flex;
+}
+.Email {
+
+    padding: 3em;
+    display: flex;
+}
+
+
+
+
