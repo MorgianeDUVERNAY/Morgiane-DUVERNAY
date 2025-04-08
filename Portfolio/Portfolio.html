@@ -107,153 +107,126 @@
         
           </div>
       </article>
-      
-
-
-
-      <section><!--Balise section-->
-        <div class="container"><!--Container pour Bootstrap-->
-            <div class="row"><!--Ligne pour la grille Bootstrap-->
-                <div class="col-md-4 mb-4"><!--Colonne pour chaque carte, 4 colonnes sur un écran moyen-->
-                    <div class="card text-white" style="width: 100%;"><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS et les textes de cette div doivent êtres en blanc-->
-                        <div class="card-body">
-                            <h5 id="Compétence">Language WEB et Base de donnée </h5><!--Titre de la card-->
-                            <div class="ImageB2">
-                                <img src="lan.png" class="img-fluid" ><!--Utilisation de img et classe img-fluid-->
-                            </div>
-                            
-                            <p class="card-text">
-
-                                <p>- HTML</p>
-                                <p>- CSS</p>
-                                <p>- Java Script</p>
-                                <p>- Php</p>
-                                <p>- MySQL</p>
-                                <p>- Bootstrap</p>
-                                <p>- Python</p>
-
-                                
-
-                            </p><!--Paragraphe dans la card-->
-                        </div>
-
-                    </div>
-                </div>
     
-                <div class="col-md-4 mb-4"><!--Colonne pour chaque carte-->
-                    <div class="card text-white" style="width: 100%;">
-                        <div class="card-body">
-                            <h5>Administration des systèmes et des réseaux</h5>
-                            <div class="ImageB2">
-                                <img src="Bloc2.png" class="img-fluid" ><!--Utilisation de img et classe img-fluid-->
+
+      <section>
+        <div class="container">
+            <!-- Ajout de 'row-cols-md-3' pour 3 colonnes par ligne sur écran moyen -->
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <!-- Suppression des 'col-md-4' redondants -->
+                <div class="col">
+                    <!-- Ajout de 'h-100' sur la carte -->
+                    <div class="card text-white h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5>Langages WEB et Base de données</h5>
+                            <div class="ImageB2 mb-3">
+                                <img src="lan.png" class="img-fluid">
                             </div>
-                            <p class="card-text">
-
-
-                              <p>- Configuration de Routeur et Switch </p>
-                              <p>- Paramètrage de Windows Serveur</p>
-                              <p>- Système d'exploitation Windows,Linux</p>
-                              <p>- Mis en place de Sauvegarde</p>
-                              <p>- Installation et configurations de service (AD,RADIUS,Supervision,etc...)</p><br>
-                              
-                              
-
-                            </p>
+                            <div class="card-text flex-grow-1">
+                              <p>- HTML</p>
+                              <p>- CSS</p>
+                              <p>- Java Script</p>
+                              <p>- Php</p>
+                              <p>- MySQL</p>
+                              <p>- Bootstrap</p>
+                              <p>- Python</p>
+                            </div>
                         </div>
                     </div>
                 </div>
     
-                <div class="col-md-4 mb-4"><!--Colonne pour chaque carte-->
-                    <div class="card text-white" style="width: 100%;">
-                        <div class="card-body">
+                <div class="col">
+                    <div class="card text-white h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5>Administration des systèmes et réseaux</h5>
+                            <div class="ImageB2 mb-3">
+                                <img src="Bloc2.png" class="img-fluid">
+                            </div>
+                            <div class="card-text flex-grow-1">
+                                <p>- Configuration de Routeur/Switch</p>
+                                <p>- Paramétrage Windows Serveur</p>
+                                <p>- Systèmes Windows/Linux</p>
+                                <p>- Mise en place de sauvegardes</p>
+                                <p>- Services (AD, RADIUS, Supervision...)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col">
+                    <div class="card text-white h-100">
+                        <div class="card-body d-flex flex-column">
                             <h5>Cybersécurité</h5>
-                            <div class="ImageB2">
-                                <img src="Bloc3.png" class="img-fluid" ><!--Utilisation de img et classe img-fluid-->
+                            <div class="ImageB2 mb-3">
+                                <img src="Bloc3.png" class="img-fluid">
                             </div>
-                            <p class="card-text">
-
-                              <p>- Conformité au RGPD.Comprendre comment protéger les données à caractère personnelle.</p>
-                              <p>- Connaissance de plusieurs cyberattaques (Brut de force, Dictionnaire...)</p>
-                              <p>- Mis en place de solution en cybersécurité (Protocole, Matériel, logiciel...)</p>
-                              <p>- Analyse des vulnérabilités et des risques </p>
-                              
-
-                            </p>
+                            <div class="card-text flex-grow-1">
+                                <p>- Conformité RGPD</p>
+                                <p>- Types de cyberattaques</p>
+                                <p>- Solutions de sécurité</p>
+                                <p>- Analyse de vulnérabilités</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4"><!--Colonne pour chaque carte-->
-                  <div class="card text-white" style="width: 100%;">
-                      <div class="card-body">
-                          <h5>Divers Outil</h5>
-                          <div class="ImageB2">
-                              <img src="Bloc1.png" class="img-fluid" ><!--Utilisation de img et classe img-fluid-->
-                          </div>
-                          <p class="card-text">
+    
+                <!-- Répéter le même pattern pour les autres cartes -->
+                <div class="col">
+                    <div class="card text-white h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5>Outils Divers</h5>
+                            <div class="ImageB2 mb-3">
+                                <img src="Bloc1.png" class="img-fluid">
+                            </div>
+                            <div class="card-text flex-grow-1">
+                              <p>- Office</p>
+                              <p>- Wireshark </p>
+                              <p>- Putty </p>
+                              <p>- Scanner IP </p>
+                              <p>- Visual Studio </p>
+                              <p>- Team Viewer </p>
 
-                            <p>- Office</p>
-                            <p>- Wireshark </p>
-                            <p>- Putty </p>
-                            <p>- Scanner IP </p>
-                            <p>- Visual Studio </p>
-                            <p>- Team Viewer </p>
-                            
-
-                          </p>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-4 mb-4"><!--Colonne pour chaque carte-->
-                <div class="card text-white" style="width: 100%;">
-                    <div class="card-body">
-                        <h5>Gestion du parc Informatique </h5>
-                        <div class="ImageB2">
-                            <img src="Bloc2.png" class="img-fluid" ><!--Utilisation de img et classe img-fluid-->
+                            </div>
                         </div>
-                        <p class="card-text">
-
-                          <p>- Gestion du partimoine informatique avec ITIL</p>
-                          <p>- Outil de gestion d'incidents(GLPI)</p>
-                          <p>- Outil de supervision matériel (Centreon)</p>
-
-                          
-                          
-                          <br>
-                          <br>
-                          
-
-                        </p>
                     </div>
-
-              </div>
-              
-          </div>
-
-          <div class="col-md-4 mb-4"><!--Colonne pour chaque carte-->
-            <div class="card text-white" style="width: 100%;">
-                <div class="card-body">
-                    <h5>Formation Supplémentaire</h5>
-                    <div class="ImageB2">
-                        <img src="Formation.png" class="img-fluid" ><!--Utilisation de img et classe img-fluid-->
-                    </div>
-                    <p class="card-text">
-
-                      <p>- Open Classroom </p>
-                      <p>- Root Me </p>
-                      <p>- Cisco Parcket Tracert </p>
-                      <p>- W3School</p>
-                      <p>- PIX </p><br>
-                     
-                      
-
-                    </p>
                 </div>
-      </div>
-  </div>
-            
-</div>
-            
-    </div>
+    
+                <div class="col">
+                    <div class="card text-white h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5>Gestion de parc informatique</h5>
+                            <div class="ImageB2 mb-3">
+                                <img src="Bloc2.png" class="img-fluid">
+                            </div>
+                            <div class="card-text flex-grow-1">
+
+                                <p>- Gestion du partimoine informatique avec ITIL</p>
+                                <p>- Outil de gestion d'incidents(GLPI)</p>
+                                <p>- Outil de matériel de supervision (Centreon)</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col">
+                    <div class="card text-white h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5>Formations complémentaires</h5>
+                            <div class="ImageB2 mb-3">
+                                <img src="Formation.png" class="img-fluid">
+                            </div>
+                            <div class="card-text flex-grow-1">
+                                <p>- OpenClassrooms</p>
+                                <p>- Root-Me</p>
+                                <p>- Cisco Packet Tracer</p>
+                                <p>- W3Schools</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <article>
 
@@ -321,8 +294,24 @@
                 <h5 id="Projet">Mes Projets réalisés&emsp;<img src="projet.png" height="40" width="40"></h5><!--Titre pour la card-->
 
                 <p class="card-text"><p>Pendant mes deux années de BTS, j'ai eu l'opportunité de réaliser plusieurs activités professionnelles en groupe qui m'ont permis d'appliquer les compétences que j'ai acquises en classe.</p><!--Paragraphe dans la card-->
+              
+              </div>
+            </article>
+
+<article><!--Balise article-->
+
+  <div class="container"><!--Container pour Bootstrap-->
+
+              <div class="card"><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
+
+                <div class="card text-white "><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
+  
+                <div class="card-body mb-0"><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
+
 
                 <br><h5>Projet 1 : Info Dev </h5><!--Titre pour la card--><br>
+
+             
 
                 <div class ="AP1">
 
@@ -341,24 +330,34 @@
                  <br><a href="Rapport  InfoDev.pdf" target="_blank"><button class="btn btn-primary btn-lg" type="button"><span>Documentation</span>&emsp;<img src="document.png" height="50" width="50"></button></a><!--Création de 1 boutons : Plus d'info--><br>
                  <br>
                  <br>
-                 
+
+                </div>
+              </article>
+
+ <article><!--Balise article-->
+            <div class="container"><!--Container pour Bootstrap-->
+              
+                 <div class="card"><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
+
+                  <div class="card text-white "><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
+    
+                  <div class="card-body mb-0"><!--Div régroupe de plusieurs éléments dans une balise qu'on peut appeler dans un code CSS)-->
                 <br><h5>Projet 2 : Firewall Stormshield  </h5><!--Titre pour la card--><br>
 
                 <div class ="AP1">
 
                 <p>Dans cette AP, J'ai collecté les besoins et des demandes de la société CHOCOLATE'IN  en suivant scrupuleusement un cahier de charge. Le but était de bloquer des sites web, interdire des paquets pour certaines machines dans leurs réseaux afin d'assurer la sécurité de l'infrastructure. La haute disponibilité permet d'assure la qualité de service si le firewall est en panne.</p><!--Paragraphe dans la card-->
 
-                
-
-
+              
               </div>
                 <br><img src="Storm.JPG" class="img-fluid" height="450" width="1000" ><br>
-                <br><a href="Dev.html" target="_blank"><button class="btn btn-primary btn-lg" type="button"><span>Documentation</span>&emsp;<img src="document.png" height="50" width="50"></button></a><!--Création de 1 boutons : Plus d'info-->
+                <br><a href="Documentation Technique Stormshield.pdf" target="_blank"><button class="btn btn-primary btn-lg" type="button"><span>Documentation</span>&emsp;<img src="document.png" height="50" width="50"></button></a><!--Création de 1 boutons : Plus d'info-->
 
               </div>
             </div>
         
-    </article>
+        </article>
+
 
     <section><!--Balise section-->
 
